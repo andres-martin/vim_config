@@ -10,3 +10,4 @@ autocmd BufWritePre * %s/\s\+$//e
 
 filetype plugin indent on
 autocmd FileType python setlocal shiftwidth=4 softtabstop=4 expandtab
+autocmd FileType html setlocal shiftwidth=4 softtabstop=4 expandtab
